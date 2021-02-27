@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2021 Oyamo Brian.
+  ~ Last modified on 2/24/21 12:52 PM
+  ~
+  ~
+  -->
+
+<resources>
+    <color name="text_button_text_color">#474947</color>
+</resources>

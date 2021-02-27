@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2021 Oyamo Brian.
+  ~
+  -->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:weightSum="4"
+    android:layout_marginTop="?attr/actionBarSize"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OnBoardingActivity">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:textSize="@dimen/textTitle"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:layout_marginStart="20dp" />
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:layout_width="match_parent"
+        android:id="@+id/onboardVP"
+        android:layout_weight="2.5"
+        android:layout_height="0dp"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textAlignment="viewStart"
+        android:id="@+id/onBoardingText"
+        android:text="@string/ob_fragment_1"
+        style="@style/TextAppearance.AppCompat.Subhead"
+        android:gravity="start" />
+    <com.google.android.material.tabs.TabLayout
+        android:layout_width="74dp"
+        app:tabGravity="start"
+        android:layout_margin="24dp"
+        app:tabBackground="@drawable/tab_unselected"
+        app:tabMode="fixed"
+        app:tabIndicator="@drawable/tab_indicator"
+        app:tabIndicatorGravity="center"
+        app:tabPaddingBottom="10dp"
+        android:id="@+id/scrollTab"
+        android:layout_height="20dp"/>
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/getStartedbtn"
+        android:layout_gravity="end"
+        android:layout_margin="10dp"
+        android:text="Get started"/>
+</LinearLayout>

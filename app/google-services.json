@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "602851500498",
+    "project_id": "trackerapp-22943",
+    "storage_bucket": "trackerapp-22943.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:602851500498:android:09cd9e0c0b84e83d28280b",
+        "android_client_info": {
+          "package_name": "com.oyasis.issuetracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "602851500498-qfve45aekns12l31ana7d2vu8nsid7qu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.oyasis.issuetracker",
+            "certificate_hash": "81749540260966aaa2d23da9e9bc8a068e3e963e"
+          }
+        },
+        {
+          "client_id": "602851500498-btccsocukn94noco3ukah2gifge77l53.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB85281mY0Bwwjog2nC9YdEKmTFkVKwCDQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "602851500498-btccsocukn94noco3ukah2gifge77l53.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
